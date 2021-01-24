@@ -11,6 +11,8 @@ import matplotlib as mpl
 import numpy as np
 
 
+
+
 main_url = "https://www.dhlottery.co.kr/gameResult.do?method=byWin"
 basic_url = "https://www.dhlottery.co.kr/gameResult.do?method=byWin&drwNo="
 
