@@ -10,9 +10,6 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
 
-
-
-
 main_url = "https://www.dhlottery.co.kr/gameResult.do?method=byWin"
 basic_url = "https://www.dhlottery.co.kr/gameResult.do?method=byWin&drwNo="
 
@@ -125,7 +122,7 @@ train_acc = []
 val_loss = []
 val_acc = []
 
-for epoch in range(1):
+for epoch in range(100):
 
     mean_train_loss = []
     mean_train_acc = []
